@@ -4,6 +4,11 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 
 
+@app.route("/test")
+def entry_page():
+    return "entry_page"
+
+
 @app.route("/test", methods=["POST"])
 def cut_string():
     result = dict()
