@@ -45,5 +45,9 @@ On a seperate window:
 curl -X POST http://127.0.0.1:5000/test --data '{"string_to_cut": "InputString"}' -H 'Content-Type: application/json'
 ```
 
+#Example of it running
+
+[example](https://github.com/yook00627/simple_post/blob/master/example.png)
+
 # Author
 Kevin Yook
